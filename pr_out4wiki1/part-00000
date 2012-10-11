@@ -1,43 +1,10 @@
-0.15	Writing an LLVM Pass
-0.15	Writing an LLVM Compiler Backend
-0.15	The Often Misunderstood GEP Instruction
-0.15	The LLVM Target-Independent Code Generator
-0.15	The LLVM Lexicon
-0.15	TableGen Fundamentals
-0.15	System Library
-0.15	Source Level Debugging with LLVM
-0.15	Segmented Stacks in LLVM
-0.15	LLVMBuild Documentation
-0.15	LLVM: Frequently Asked Questions
-0.15	LLVM: $title
-0.15	LLVM's Analysis and Transform Passes
-0.15	LLVM test-suite Makefile Guide
-0.15	LLVM gold plugin
-0.15	LLVM bugpoint tool: design and usage
-0.15	LLVM Testing Infrastructure Guide
-0.15	LLVM Programmer's Manual
-0.15	LLVM Makefile Guide
-0.15	LLVM Link Time Optimization: Design and Implementation
-0.15	LLVM Developer Policy
-0.15	LLVM Coding Standards
-0.15	LLVM Branch Weight Metadata
-0.15	LLVM Bitcode File Format
-0.15	LLVM Atomic Instructions and Concurrency Guide
-0.15	LLVM Assembly Language Reference Manual
-0.15	LLVM Alias Analysis Infrastructure
-0.15	LLVM 3.1 Release Notes
-0.15	How to submit an LLVM bug report
-0.15	How To Release LLVM To The Public
-0.15	Getting Started with LLVM System for Microsoft Visual Studio
-0.15	Getting Started with LLVM System
-0.15	Extending LLVM: Adding instructions, intrinsics, types, etc.
-0.15	Exception Handling in LLVM
-0.15	Documentation for the LLVM System at SVN head
-0.15	Debugging JITed Code With GDB
-0.15	Creating an LLVM Project
-0.15	CommandLine 2.0 Library Manual
-0.15	Building the LLVM GCC Front-End
-0.15	Building LLVM with CMake
-0.15	Architecture/platform information for compiler writers
-0.15	Advice on Packaging LLVM
-0.15	Accurate Garbage Collection with LLVM
+0.15	Static Analyzer Design Document: Memory Regions
+0.15	Pretokenized Headers (PTH)
+0.15	Precompiled Headers (PCH)
+0.15	Objective-C Automatic Reference Counting (ARC)
+0.15	Clang Language Extensions
+0.15	Clang Driver Manual
+0.15	Clang Compiler User's Manual
+0.15	Clang 3.1 Release Notes
+0.15	AddressSanitizer, a fast memory error detector
+0.15	"Clang" CFE Internals Manual

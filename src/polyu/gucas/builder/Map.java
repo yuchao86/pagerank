@@ -9,6 +9,7 @@ package polyu.gucas.builder;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -27,19 +28,22 @@ Mapper<WritableComparable, Writable, WritableComparable, Text> {
 			OutputCollector<WritableComparable, Text> output, Reporter reporter) throws IOException {
 		
 		String page = value.toString();
+		ArrayList<String> outlinks = this.GetOutlinks(page);
 		//String page = value.toString().toLowerCase();
         
 		String title = this.GetTitle(page, reporter);
 		if (title.length() == 0) 
 			return;
 		
-		ArrayList<String> outlinks = this.GetOutlinks(page);
 		StringBuilder builder = new StringBuilder();
 		for (String link : outlinks) {
 			//link = link.replace(" ", "_");
 			builder.append(link);
 			builder.append("^^");
 		}
+		Logger logger = Logger.getLogger("polyu_gucas.log");
+		logger.fine("polyu_gucas,data mining papar");
+		logger.fine("Map=>"+title+"#"+builder.toString());
 		output.collect(new Text(title), new Text(builder.toString()));
 	}
 
@@ -58,6 +62,7 @@ Mapper<WritableComparable, Writable, WritableComparable, Text> {
 	}
 
 	public ArrayList<String> GetOutlinks(String page){
+		
 		//int end;
 		ArrayList<String> outlinks = new ArrayList<String>();
 		//int start=page.indexOf("[[");

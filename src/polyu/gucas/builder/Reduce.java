@@ -36,6 +36,7 @@ public class Reduce extends MapReduceBase
 
 		String num = (new Integer(count)).toString();
 		toWrite = num + "@@@" + toWrite;
+		System.out.println("Reduce=>"+title+"#"+toWrite);
 		output.collect(title, new Text(toWrite));
 	}
 

@@ -34,7 +34,7 @@ public class GraphBuilder {
 
         // specify input and output DIRECTORIES (not files)
         //FileInputFormat.setInputPaths(conf, new Path("/wiki"));
-        FileInputFormat.setInputPaths(conf, new Path("hdfs://localhost:9000/user/chaoyu/web/docs"));
+        FileInputFormat.setInputPaths(conf, new Path("hdfs://localhost:9000/user/chaoyu/website"));
         FileSystem.get(conf).delete(new Path("graph-0"), true);
         FileOutputFormat.setOutputPath(conf, new Path("graph-0"));
 
