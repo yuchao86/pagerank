@@ -1,0 +1,40 @@
+Basic
+Name	Yu Chao
+Sex		Male
+Birth	    	12/1986
+Married            No
+Hometown        YunNan 
+E-mail	        yuchao86@sina.cn
+=============================================================
+Blog:	http://blog.csdn.net/CYBEREXP2008
+Weibo:	http://weibo.com/yuchao86
+MSN: 	yuchao86@live.cn 
+Facebook:http://www.facebook.com/yuchao86
+Twitter:@yuchao86
+Github:https://github.com/yuchao86
+===========================================================
+Education
+09/2004--07/2009      Peking University     Computer Applications 	undergraduate 
+09/2010--01/2013     Hong Kong Polytechnic University   Master of computer sicence technology	postgraduate
+
+==========================================================
+Work experience
+05/2010 - 2012-06     Sina Technology (China) Co., Ltd.
+http://pay.weibo.com project all model
+http://pay.sina.com.cn project all model
+
+03/2009 -05/2010     HuaNa (Beijing) Co.,Ltd
+http://www.h9net.com project all model
+
+07/2008--03/2009    Baidu Technology (Beijing) Co.,Ltd
+Linux cluster configuration
+LAMP maintain
+==========================================================
+Training:
+08/2011          linux route limit       SINA
+06/2011          linux kernel IO         SINA
+04/2011		Facebook develop circuit	SINA
+01/2011         SVN and rsync 			SINA
+02/2009		Cisco config			BAIDU
+
+
